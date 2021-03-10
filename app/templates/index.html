@@ -13,9 +13,15 @@
     <header>
         <h1>Orders</h1>
     </header>
-    
+
     <main>
-      
+        {% for order in orders%}
+        <div>
+            <p>
+                {{order.customer_name}}: {{order.date}}, {{order.quantity}}
+            </p>
+        </div>
+    {% endfor %}
     </main>
 </body>
 
