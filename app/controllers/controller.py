@@ -6,5 +6,5 @@ from app import app
 def index():
     return render_template(
         'index.html', 
-        title='', 
+        title='Orders', 
     )
