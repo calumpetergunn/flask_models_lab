@@ -9,3 +9,15 @@ body {
     line-height: 1.52947em;
     letter-spacing: -.021em;
 }
+
+.button{
+    font-weight: bolder;
+    color: white;
+    background-color: crimson;
+    text-decoration: none;
+
+    border-radius: 15px;
+
+    width: max-content;
+    padding: 15px 20px;
+}
