@@ -3,21 +3,41 @@ body {
     color: black;
 
     font-family: SF Pro Text, Helvetica, Arial;
-    font-size: 14px;
     font-weight: normal;
 
     line-height: 1.52947em;
     letter-spacing: -.021em;
 }
 
-.button{
-    font-weight: bolder;
-    color: white;
-    background-color: crimson;
+h1{
+    font-size: 48px;
+}
+
+.orders-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer-link{
+    display: inline-block;
+
+    color: #39ac31;
+    outline: #39ac31 solid 3px;
+    font-weight: bold;
     text-decoration: none;
 
-    border-radius: 15px;
+    padding: 10px 15px;
+    margin: 10px 10px;
+}
 
-    width: max-content;
-    padding: 15px 20px;
+.button {
+    display: inline-block;
+
+    color: #fff!important;
+    background: #39ac31;
+    text-decoration: none;
+    border-radius: 10px;
+
+    padding: 10px 15px;
+    margin: 20px 0;
 }

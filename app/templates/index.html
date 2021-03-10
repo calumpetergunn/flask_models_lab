@@ -14,11 +14,11 @@
         <h1>Orders</h1>
     </header>
 
-    <main>
+    <main  class="orders-grid">
     {% for i in range(order_len) %}
         <div>
             <p>
-                <a href="http://127.0.0.1:5000/orders/{{i + 1}}">{{orders[i].customer_name}}</a>
+                <a href="http://127.0.0.1:5000/orders/{{i + 1}}" class="customer-link">{{orders[i].customer_name}}</a>
             </p>
         </div>
     {% endfor %}
