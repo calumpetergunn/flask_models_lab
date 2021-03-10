@@ -15,10 +15,11 @@
     </header>
 
     <main>
-        {% for order in orders%}
+    {% for i in range(order_len) %}
         <div>
             <p>
-                {{order.customer_name}}: {{order.date}}, {{order.quantity}}
+                {{orders[i].customer_name}}: {{orders[i].date}}, {{orders[i].quantity}}
+                <a href="http://127.0.0.1:5000/orders/{{i + 1}}">click here</a>
             </p>
         </div>
     {% endfor %}

@@ -5,3 +5,4 @@ order2 = Order("Cara", "10/02/21", 1)
 order3 = Order("Jade", "01/03/21", 5)
 
 orders_list = [order1, order2, order3]
+order_len = len(orders_list)
